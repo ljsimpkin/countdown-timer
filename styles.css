@@ -19,4 +19,5 @@ body {
 h1, #countdown {
     color: #ff69b4;
     margin-top: 20px;
+    font-size: 3em; /* Make the text three times bigger */
 }
