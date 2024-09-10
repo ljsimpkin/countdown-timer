@@ -23,6 +23,12 @@ function countdown(targetDate) {
     }, 1000);
 }
 
-// Set the target date and time here
+window.addEventListener('load', () => {
+    confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 }
+    });
+});
 const targetDate = "2024-09-10T16:55:00";
 countdown(targetDate);
