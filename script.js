@@ -2,7 +2,7 @@ function countdown(targetDate) {
     const target = new Date(targetDate).getTime();
 
     const interval = setInterval(() => {
-        const now = new Date().getTime();
+        const now = new Date().getTime() + (new Date().getTimezoneOffset() * 60 * 1000) + (1 * 60 * 60 * 1000); // Adjust to GMT+1
         const distance = target - now;
 
         if (distance < 0) {
