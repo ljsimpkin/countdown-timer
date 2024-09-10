@@ -24,5 +24,5 @@ function countdown(targetDate) {
 }
 
 // Set the target date and time here
-const targetDate = "2024-12-31T23:59:59";
+const targetDate = "2024-09-10T16:55:00";
 countdown(targetDate);
