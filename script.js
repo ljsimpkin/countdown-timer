@@ -7,7 +7,7 @@ function countdown(targetDate) {
 
         if (distance < 0) {
             clearInterval(interval);
-            document.getElementById("countdown").innerHTML = "EXPIRED";
+            document.getElementById("countdown").innerHTML = "GREAT SUCCESS!";
             return;
         }
 
